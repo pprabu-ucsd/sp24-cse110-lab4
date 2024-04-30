@@ -32,7 +32,9 @@
      * ```true == 2 -> false```, since ```true = 1``` in conversion to an integer, and since 1 does not equal 2, it will return ```false```.
      * ```true === Boolean(2) -> true```, since ```Boolean(2) = true```, and so the expression will be ```true === true```, which will return ```true```.
 15. The ```==``` operator is an equality operator that compares two values after converting them to a common type, known as a loose equality comparison, while in contrast, the ```===``` operator is an equality operator that compares two values without any type conversion, also known as strict equality comparison.
+16. In the file ```part2-question16.js```.
 17. The result of ```modifyArray([1,2,3], doSomething)``` is the array value ```[2,4,6]```. The function returns this array value, as all the function does is iterate through the array given in the parameters, then running each individual element of the array through the callback function ```doSomething(num)```, which doubles the value of the element, before pushing it to the array ```newArr```, finally returning ```newArr```.
+18. In the file ```part2-question18.js```.
 19. ```
     1
     4
